@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    display: block;
+    background-color: rgb(226, 219, 211);
+
+}
+h1{
+    color: blue;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+h2{
+    color: brown;
+    font-size: smaller;
+}
+.container{
+    border: solid 1px gray;
+    border-radius: 5px;
+    background-color: rgb(216, 186, 153);
+    max-width: 520px;
+    margin: auto;
+    padding: 1.2rem;
+    height: 60vh;
+    padding-top: 2rem;
+
+}
+input{
+    padding: 0.7rem;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 0.5rem auto;
+    width: 60%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+
+
+}
+button{
+    padding: 0.7rem;
+    border: solid 1px rgb(64, 190, 32);
+    border-radius: 5px;
+    margin: 0.5rem auto;
+    width: 64%;
+    background: rgb(64, 190, 32);
+    cursor: pointer;
+
+}
+#message{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    background-color: red;
+    width: fit-content;
+    margin: 0.5rem auto;
+    border-radius: 3px;
+    padding: 0.1rem 0.5rem;
+}
+table{
+    margin: auto;
+    margin-top: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+   
+}
+td{
+    border: solid 0.5px rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0.3rem;
+    width: 20px;
+
+}

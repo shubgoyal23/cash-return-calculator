@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
+  <title>Cash Refund Calculator</title>
+</head>
+
+<body>
+  <h1>Cash Refund Calculator</h1>
+  <h2>just enter bill amount and cash given we will do rest for you</h2>
+  <div>
+    <div class="container">
+    <p id="message"></p>
+    <label for="bill-amount">Bill Amount</label><br>
+    <input id="bill-amount"></input><br>
+    <button id="next">Next</button>
+    <div id="innercheck">
+      <label for="cash-amount">Cash Given</label><br>
+      <input id="cash-amount"></input><br>
+      <button id="check">Check</button>
+      <table>
+        <tr>
+          <td>No of Notes</td>
+          <td class="notes"></td>
+          <td class="notes"></td>
+          <td class="notes"></td>
+          <td class="notes"></td>
+          <td class="notes"></td>
+          <td class="notes"></td>
+          <td class="notes"></td>
+        </tr>
+        <tr>
+          <td>Denomination</td>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  </div>
+  <script src="calculate.js" type="text/javascript"></script>
+</body>
+
+</html>
